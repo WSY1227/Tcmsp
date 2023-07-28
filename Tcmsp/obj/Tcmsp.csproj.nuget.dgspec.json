@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[5.1.2, )"
             },
+            "Jt.Common.Tool": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[7.0.0, )"

@@ -23,8 +23,10 @@ public class TcmspSpider : DotnetSpider.Spider
         AddDataFlow(new Parser());
         // 使用控制台存储器
         AddDataFlow(new ConsoleStorage());
+        // 获取控制台输入的关键字
+        var q = Console.ReadLine();
         // 添加采集请求
-        await AddRequestsAsync(new Request("https://old.tcmsp-e.com/tcmspsearch.php?qs=herb_all_name&q=%E9%99%88%E7%9A%AE")
+        await AddRequestsAsync(new Request($"https://old.tcmsp-e.com/tcmspsearch.php?qs=herb_all_name&q={q}")
         {
             // 请求超时 10 秒
             Timeout = 10000
@@ -98,7 +100,7 @@ public class TcmspSpider : DotnetSpider.Spider
                     var jsonMatches = ExtractJsonData(script);
                    
                    var ingredients = JsonConvert.DeserializeObject<List<Ingredients>>(jsonMatches[0]);
-                   var relatedTargets = JsonConvert.DeserializeObject<List<RelatedTargets>>(jsonMatches[0]);
+                   var relatedTargets = JsonConvert.DeserializeObject<List<RelatedTargets>>(jsonMatches[1]);
                    
                    Console.WriteLine(ingredients);
                    Console.WriteLine(relatedTargets);

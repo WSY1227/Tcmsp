@@ -65,6 +65,19 @@
           }
         }
       },
+      "Jt.Common.Tool/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "SharpZipLib": "1.4.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Jt.Common.Tool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Jt.Common.Tool.dll": {}
+        }
+      },
       "MessagePack/2.5.124": {
         "type": "package",
         "dependencies": {
@@ -1009,6 +1022,19 @@
           }
         }
       },
+      "SharpZipLib/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Collections.Immutable/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -1506,6 +1532,20 @@
         "lib/uap10.0/HtmlAgilityPack.dll",
         "lib/uap10.0/HtmlAgilityPack.pdb",
         "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    },
+    "Jt.Common.Tool/1.0.0": {
+      "sha512": "L88Q6Shj6l0MDJne8TnOwxm7FZpQ42eqVpyZcaIGBOBQfxnahgxmzzpzeU39LqQZSPDwLdgsO22R6nf/CGvlqg==",
+      "type": "package",
+      "path": "jt.common.tool/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "jt.common.tool.1.0.0.nupkg.sha512",
+        "jt.common.tool.nuspec",
+        "lib/netstandard2.1/Jt.Common.Tool.dll"
       ]
     },
     "MessagePack/2.5.124": {
@@ -2906,6 +2946,27 @@
         "serilog.sinks.rollingfile.nuspec"
       ]
     },
+    "SharpZipLib/1.4.2": {
+      "sha512": "yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "type": "package",
+      "path": "sharpziplib/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/sharpziplib-nuget-256x256.png",
+        "lib/net6.0/ICSharpCode.SharpZipLib.dll",
+        "lib/net6.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/net6.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.4.2.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
     "System.Collections.Immutable/7.0.0": {
       "sha512": "dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
       "type": "package",
@@ -4178,6 +4239,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "DotnetSpider >= 5.1.2",
+      "Jt.Common.Tool >= 1.0.0",
       "Serilog.AspNetCore >= 7.0.0",
       "Serilog.Sinks.Console >= 4.2.0-dev-00918",
       "Serilog.Sinks.PeriodicBatching >= 3.1.1-dev-00804",
@@ -4232,6 +4294,10 @@
           "DotnetSpider": {
             "target": "Package",
             "version": "[5.1.2, )"
+          },
+          "Jt.Common.Tool": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Serilog.AspNetCore": {
             "target": "Package",

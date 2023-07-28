@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B2PiFaWo48kDQIIFaIHkL/eMFAjk7ib/BV7HJIBl8Uphzn27pcPFFfvktlkdk7P8UoIoh7TnHsGnv4r2PTFSXA==",
+  "dgSpecHash": "OUEvXBJc66BTS9pcrcwmjQ1P+6ITR/oK3LsmmY6vnwjqMt3I0dXrJCPRcqtKQnBlKXFTs/dMiFOo1NhjeAaUQA==",
   "success": true,
   "projectFilePath": "D:\\UGit\\Tcmsp\\Tcmsp\\Tcmsp.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\16692\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\dotnetspider\\5.1.2\\dotnetspider.5.1.2.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\htmlagilitypack\\1.11.49\\htmlagilitypack.1.11.49.nupkg.sha512",
+    "C:\\Users\\16692\\.nuget\\packages\\jt.common.tool\\1.0.0\\jt.common.tool.1.0.0.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\messagepack\\2.5.124\\messagepack.2.5.124.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\messagepack.annotations\\2.5.124\\messagepack.annotations.2.5.124.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -60,6 +61,7 @@
     "C:\\Users\\16692\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\serilog.sinks.periodicbatching\\3.1.1-dev-00804\\serilog.sinks.periodicbatching.3.1.1-dev-00804.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\serilog.sinks.rollingfile\\3.3.1-dev-00771\\serilog.sinks.rollingfile.3.3.1-dev-00771.nupkg.sha512",
+    "C:\\Users\\16692\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\16692\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
